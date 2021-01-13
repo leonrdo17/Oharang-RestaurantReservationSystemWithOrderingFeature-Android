@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.table.TableFragment">
+
+    <ImageView
+        android:id="@+id/tableNumberOne"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/customertable1"
+        app:layout_constraintBottom_toTopOf="@+id/tableNumberThree"
+        app:layout_constraintEnd_toStartOf="@+id/tableNumberThree" />
+
+    <ImageView
+        android:id="@+id/tableNumberTwo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/customertable2"
+        app:layout_constraintBottom_toTopOf="@+id/tableNumberThree"
+        app:layout_constraintStart_toEndOf="@+id/tableNumberThree" />
+
+    <ImageView
+        android:id="@+id/tableNumberThree"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/customertable3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/tableNumberFour"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/customertable4"
+        app:layout_constraintEnd_toStartOf="@+id/tableNumberThree"
+        app:layout_constraintTop_toBottomOf="@+id/tableNumberThree" />
+
+    <ImageView
+        android:id="@+id/tableNumberFive"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/customertable5"
+        app:layout_constraintStart_toEndOf="@+id/tableNumberThree"
+        app:layout_constraintTop_toBottomOf="@+id/tableNumberThree" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:fontFamily="@font/open_sans"
+        android:text="PLEASE SELECT THE TABLE"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:text="Note: Table availability may changed based on the restaurant schedule"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableNumberThree" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

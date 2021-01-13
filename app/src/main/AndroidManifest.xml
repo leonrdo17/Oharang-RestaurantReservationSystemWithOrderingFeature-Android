@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.leonardo.tableappreservation">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_new"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_new"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".manageVoucher.NewVoucher" />
+        <activity android:name=".request.EditRequest" />
+        <activity android:name=".restaurantMenu.RestaurantMenu" />
+        <activity android:name=".menu.NewMenu" />
+        <activity android:name=".menu.RestaurantOrderMenu" />
+        <activity android:name=".manageVoucher.OwnerManageVoucher" />
+        <activity android:name=".manageTable.OwnerManageTable" />
+        <activity android:name=".request.OwnerReservationRequest" />
+        <activity android:name=".OwnerOptions" />
+        <activity android:name=".ReservationOnlyConfirm" />
+        <activity android:name=".ReservationOnlyVoucher" />
+        <activity android:name=".DateReservationOnly" />
+        <activity android:name=".EditProfile" />
+        <activity android:name=".ReservationOnly" />
+        <activity android:name=".TableOptions" />
+        <activity android:name=".Login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".Register"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            >
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

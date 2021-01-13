@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Oharang</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <string-array name="orderTime">
+        <item>08.00 AM</item>
+        <item>09.00 AM</item>
+        <item>10.00 AM</item>
+        <item>11.00 AM</item>
+        <item>12.00 PM</item>
+        <item>01.00 PM</item>
+        <item>02.00 PM</item>
+        <item>03.00 PM</item>
+        <item>04.00 PM</item>
+        <item>05.00 PM</item>
+        <item>06.00 PM</item>
+        <item>07.00 PM</item>
+        <item>08.00 PM</item>
+        <item>09.00 PM</item>
+
+    </string-array>
+
+    <string-array name="partySize">
+        <item>One People</item>
+        <item>Two People</item>
+        <item>Three People</item>
+        <item>Four People</item>
+        <item>Five People</item>
+        <item>Six People</item>
+        <item>Seven People</item>
+        <item>Eight People</item>
+        <item>Nine People</item>
+        <item>Ten People</item>
+        <item>Eleven People</item>
+        <item>Twelve People</item>
+
+    </string-array>
+    <string name="title_activity_restaurant_menu">Restaurant Menu</string>
+    <string name="tab_text_1">Menu Set</string>
+
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "60572786124",
+    "firebase_url": "https://tableappreservation.firebaseio.com",
+    "project_id": "tableappreservation",
+    "storage_bucket": "tableappreservation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60572786124:android:8370244b733eb48b765169",
+        "android_client_info": {
+          "package_name": "com.leonardo.tableappreservation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60572786124-peo92s7qrltise5tce386bs1artob8fo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.leonardo.tableappreservation",
+            "certificate_hash": "608ee680416d5c5e904a6f78d489a9afcc97349b"
+          }
+        },
+        {
+          "client_id": "60572786124-tmkpk11alavnl9meq289b9aob95i3vet.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIISRbR9ZSme-dKiEJUNu7HQNEKamKXB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60572786124-tmkpk11alavnl9meq289b9aob95i3vet.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
